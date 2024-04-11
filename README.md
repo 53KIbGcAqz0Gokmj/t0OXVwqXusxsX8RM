@@ -17,7 +17,7 @@ job_title: The job title associated with the candidate.
 location: The geographical location of the candidate.
 connections: The number of connections a candidate has, where "500+" implies more than 500 connections.
 
-## utput (Label):
+## Output (Label):
 * fit: This numeric value represents how suitable a candidate is for a specific role, ranging from 0 to 1.
 
 # Goal(s):
