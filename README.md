@@ -49,7 +49,8 @@ We are seeking candidates who show interest in human resources, which can be ide
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/c1a6bb95-61c2-4e2c-ba3c-341106bc73be)
 
-![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/23f2f05d-0851-4d54-a638-7f7b1b1ed7ab)
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/a89b7536-dc54-4631-89f0-14fa01fa271b)
+
 
 To optimize the fitness score, we can combined all the individual fit scores through feature engineering for a comprehensive evaluation of candidate suitability. We can also employe a weighted sum approach to create a final fit score, considering the significance of each candidate's connections.
 
@@ -58,3 +59,15 @@ To optimize the fitness score, we can combined all the individual fit scores thr
 * We incorporated a weighted fit score, utilizing the scaled connection count along with text relevance from multiple fit scores. Given the crucial role of connections in recruitment positions, this approach assigns significant importance to connection count in HR job roles. The weighted combination of fitness scores and scaled connection count aims to strike a balance between the influence of connections and title semantics.
   
 * To enhance the effectiveness of the ranking solution, a cut-off threshold has been implemented to eliminate non-relevant candidates. The current threshold has been fine-tuned to align with the characteristics of the current dataset. It ensures a fair trade-off between title semantics and the networking skills of candidates.
+
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/23f2f05d-0851-4d54-a638-7f7b1b1ed7ab) 
+
+# Reranking candidates:
+
+
+* Finally reranking by starring ideal candidates helps surface other potentials similar to that profile, this refines the ranking further using the starred candiate attributes as a baseline.
+  
+* Encoded additional attributes like location and fitscore to better match candidates.
+
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/eed1b269-30d3-47d8-9968-4b06fafd5153)
+  
