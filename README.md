@@ -49,7 +49,7 @@ We are seeking candidates who show interest in human resources, which can be ide
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/c1a6bb95-61c2-4e2c-ba3c-341106bc73be)
 
-![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/3809d004-007b-492c-aac1-e1e9af51b4bc)
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/23f2f05d-0851-4d54-a638-7f7b1b1ed7ab)
 
 To optimize the fitness score, we can combined all the individual fit scores through feature engineering for a comprehensive evaluation of candidate suitability. We can also employe a weighted sum approach to create a final fit score, considering the significance of each candidate's connections.
 
