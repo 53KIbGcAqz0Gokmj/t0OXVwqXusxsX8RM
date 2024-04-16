@@ -49,7 +49,12 @@ We are seeking candidates who show interest in human resources, which can be ide
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/c1a6bb95-61c2-4e2c-ba3c-341106bc73be)
 
-![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/bc72da64-4cba-4ac7-9250-f59a39571492)
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/3809d004-007b-492c-aac1-e1e9af51b4bc)
 
+To optimize the fitness score, we can combined all the individual fit scores through feature engineering for a comprehensive evaluation of candidate suitability. We can also employe a weighted sum approach to create a final fit score, considering the significance of each candidate's connections.
 
+# Ranking candidates:
 
+* We incorporated a weighted fit score, utilizing the scaled connection count along with text relevance from multiple fit scores. Given the crucial role of connections in recruitment positions, this approach assigns significant importance to connection count in HR job roles. The weighted combination of fitness scores and scaled connection count aims to strike a balance between the influence of connections and title semantics.
+  
+* To enhance the effectiveness of the ranking solution, a cut-off threshold has been implemented to eliminate non-relevant candidates. The current threshold has been fine-tuned to align with the characteristics of the current dataset. It ensures a fair trade-off between title semantics and the networking skills of candidates.
