@@ -30,7 +30,24 @@ connections: The number of connections a candidate has, where "500+" implies mor
 * Filtering Candidates: Efficiently filter out candidates who should not be on this list in the first place.
 * Universal Cut-off Point: Determine a cut-off point that works effectively for various roles without excluding high-potential candidates.
 * Bias Mitigation: Develop automated procedures to reduce human bias in the candidate selection process.
+  
 (Our objective is to build a robust algorithm that not only predicts candidate fitness but also adapts to changes and promotes fairness and efficiency in the selection process.)
+
+# Solution:
+
+## Data Preprocessing:
+
+As you can see, the data contains symbols, duplicates and acronyms. We need to preprocess them first. Using custom functions and regular expressions, we have enabled data preprocessing.
+
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/0c1e8102-c30c-49eb-aa86-c4500d5dce4b)
+
+The plot below illustrates the word frequency, presented in the sorted list below, allowing for a better understanding.
+
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/1a57dcc5-2672-4047-816c-a06e8cde9360)
+
+We are seeking candidates who show interest in human resources, which can be identified through the presence of keywords such as "Aspiring human resources" or "Seeking human resources". Therefore, we will use either of these phrases as our search keyword.
+
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/c1a6bb95-61c2-4e2c-ba3c-341106bc73be)
 
 
 
