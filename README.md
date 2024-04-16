@@ -71,3 +71,21 @@ To optimize the fitness score, we can combined all the individual fit scores thr
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/eed1b269-30d3-47d8-9968-4b06fafd5153)
   
+# Job titles ranking
+
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/aef8036a-731a-42f0-8ba6-cc1b1f55ef6a)
+
+# BONUS : Rank prediction using LGBMRanker
+
+* The proposed solution utilizes a LambdaRank model, which is a learning-to-rank algorithm based on gradient boosting with LightGBM. The algorithm is trained to optimize the ranking of candidates based on their relevance scores (ranking_SBERT_binary) and similarity scores (similarities_SBERT).
+
+# Final Observation:  
+
+This solution not only predicts candidate fitness but also adapts to changes, promoting fairness and efficiency in the selection process.
+
+* Leveraging various encoders, we effectively capture relevant semantics from job titles.
+* Through feature engineering, the fitness score of candidates is refined by incorporating a weighted combination of semantics from titles and scaled communication (representing networking skills), ensuring a fair ranking system.
+* The implemented threshold guarantees the retention of only relevant candidates, allowing the algorithm to further refine the ranking effectively.
+* Continuous refinement of the ranking occurs with every starring action, making the search baseline more relevant with each human input. Advanced NLP embedding techniques aid in surfacing similar candidates, ensuring fairness without bias, and the LGBMRanker with a linear kernel reinforces this process.
+* To enhance the solution's performance, fine-tuning the weighted sum of the feature-engineered fit score and adjusting the cutoff threshold is recommended. This refinement process can be further improved by accessing additional candidate data.
+* In a broader context, the solution is adaptable to other job roles by modifying keywords and making minor adjustments in text preprocessing. It's crucial to note that the current feature-engineered score and cutoff are customized for the HR role.
