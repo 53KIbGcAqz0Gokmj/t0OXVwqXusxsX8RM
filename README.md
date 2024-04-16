@@ -49,7 +49,7 @@ We are seeking candidates who show interest in human resources, which can be ide
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/c1a6bb95-61c2-4e2c-ba3c-341106bc73be)
 
-
+![image](https://github.com/53KIbGcAqz0Gokmj/t0OXVwqXusxsX8RM/assets/143815258/bc72da64-4cba-4ac7-9250-f59a39571492)
 
 
 
